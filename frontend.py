@@ -6,7 +6,7 @@ aptitude=st.slider("Aptitude",0,100,70)
 communication=st.slider("Communication",1,10,5) 
 projects=st.slider("Projects",0,5,2)
 if st.button("Predict"):
-    url = "http://127.0.0.1:5000/predict"
+    url = "https://placement-prediction-zrjj.onrender.com/predict"
     data = {
         "cgpa": cgpa,
         "aptitude": aptitude,
